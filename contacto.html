@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<title>Viajando de Sur a Sur</title>
+</head>
+<body>
+	<div id="header" class="fixed-top d-flex align-items-center">
+		<div class="container d-flex align-items-center">
+			<div class="logo me-auto">
+        <h1><a href="index.html"><img src="assets/logoviajando.png" alt="logo" class="img-fluid"></a></h1>
+      </div>
+			<nav class="navbar navbar-expand-xl navbar-light">
+				<div class="container-fluid">
+				  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarWithDropdown" aria-controls="navbarWithDropdown" aria-expanded="false" aria-label="Toggle navigation">
+				    <span class="navbar-toggler-icon"></span>
+				  </button>
+				  <div class="collapse navbar-collapse" id="navbarWithDropdown">
+				    <ul class="navbar-nav">
+				      <li class="nav-item">
+				        <a class="nav-link active" aria-current="page" href="index.html">INICIO</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="nosotros.html">NOSOTROS</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="relatos.html">RELATOS</a>
+				      </li>
+				      <li class="nav-item dropdown">
+				        <a class="nav-link dropdown-toggle" href="guias.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">GUIAS</a>
+				        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+				          <li><a class="dropdown-item" href="guias.html">Trekking</a></li>
+				          <li><a class="dropdown-item" href="guias.html">Cicloturismo</a></li>
+				          <li><a class="dropdown-item" href="guias.html">Visas W&H</a></li>
+				        </ul>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="contacto.html">CONTACTO</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">LIBROS</a>
+				      </li>
+				    </ul>
+				  </div>
+				</div>
+			</nav>
+		</div>
+	</div>
+  <!-- Guias -->
+  <div>Si te quedaron dudas...</div>
+  <section id="contact" class="contact section-bg mt-5">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2>Contactanos</h2>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-5 d-flex align-items-stretch" data-aos="fade-right">
+            <div class="info">
+              <p>Mediante nuestras redes:</p>
+              <div class="redes me-auto">
+                <img src="assets/red1.png" class="img-fluid"> <span>Snapchat</span>
+              </div>
+              <div class="redes me-auto">
+                <img src="assets/red2.png" class="img-fluid"> <span>Instagram</span>
+              </div>
+              <div class="redes me-auto">
+                <img src="assets/red3.png" class="img-fluid"> <span>Facebook</span>
+              </div>
+              <div class="redes me-auto">
+                <img src="assets/red4.png" class="img-fluid"> <span>Web</span>
+              </div> <br>
+              <p>Dónde estamos ahora:</p>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50767.533921391194!2d-59.17772166793308!3d-37.319517690110686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95911f9b2733946f%3A0xceef2c76899c202d!2sTandil%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1652908311975!5m2!1ses!2sar" width="600" height="450" style="border:0; width: 100%; height: 290px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+          </div>
+
+          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch" data-aos="fade-left">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label for="name">Nombre</label>
+                  <input type="text" name="name" class="form-control" id="name" required>
+                </div>
+                <div class="form-group col-md-6 mt-3 mt-md-0">
+                  <label for="name">Email</label>
+                  <input type="email" class="form-control" name="email" id="email" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <label for="name">Asunto</label>
+                <input type="text" class="form-control" name="subject" id="subject" required>
+              </div>
+              <div class="form-group mt-3">
+                <label for="name">Mensaje</label>
+                <textarea class="form-control" name="message" rows="10" required></textarea>
+              </div> <br>
+              <div class="text-center"><button type="submit" class="btn-mio">Enviar</button></div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  <!-- Footer -->
+  <footer class="text-center text-lg-start text-muted border-top mt-3">
+    <!-- Redes -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <div class="me-4 d-none d-lg-block">
+        <span>Seguinos en nuestras redes sociales:</span>
+      </div>
+      <div class="redes me-auto">
+        <img src="assets/red1.png" class="img-fluid">
+      </div>
+      <div class="redes me-auto">
+        <img src="assets/red2.png" class="img-fluid">
+      </div>
+      <div class="redes me-auto">
+        <img src="assets/red3.png" class="img-fluid">
+      </div>
+      <div class="redes me-auto">
+        <img src="assets/red4.png" class="img-fluid">
+      </div>
+  </section>
+    <!-- Menú  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <div class="row mt-3">
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">MENÚ</h6>
+            <p><a href="index.html" class="text-reset">Inicio</a></p>
+            <p><a href="nosotros.html" class="text-reset">Nosotros</a></p>
+            <p><a href="relatos.html" class="text-reset">Relatos</a></p>
+            <p><a href="guias.html" class="text-reset">Guias</a></p>
+          </div>
+          <!-- Descripción y logo -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">VIAJANDO DE SUR A SUR</h6>
+            <p>Un espacio diseñado para compartir nuestra experiencia viajera y ayudarte a armar tus propias aventuras.</p>
+            <img src="assets/logoviajando.png" class="w-50 p-3">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2022 Copyright:
+      <a class="text-reset fw-bold" href="https://getbootstrap.com/">Bootstrap.com</a>
+    </div>
+  </footer>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
